@@ -43,7 +43,7 @@ public class MainActivity extends AppCompatActivity {
             .
 
             @Override
-            public void onClick(View v) {
+            public void onClick(View view) {
                 do Process();
             }
 
@@ -64,7 +64,7 @@ public class MainActivity extends AppCompatActivity {
 private void doPocess(){
         if(isValid())
         {String nama=etNama.getText().toString();
-        tvHasil.setText("Terima Kasih "+nama+"terdaftar di kelas"+);
+        tvHasil.setText("Terima Kasih "+nama+"terdaftar di kelas"+tvhasil);
         }
         }
 
